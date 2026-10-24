@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: tavofy.resource
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tavofy
+    username: myuser
+    password: secret
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
